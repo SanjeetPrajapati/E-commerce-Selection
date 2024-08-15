@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Selection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <img src="logo.PNG" alt="Logo" class="logo">
+        <h1>Welcome to Our E-commerce Selection</h1>
+        <p>Choose items from the list below to see your selected items appear in the box container.</p>
+    </header>
+    <div class="box-container" id="box-container">
+        <h2>Selected Items</h2>
+        <div class="selected-items" id="selected-items">
+            <!-- Selected items will appear here -->
+        </div>
+    </div>
+    <div class="main-container" id="main-container">
+        <h2>Select an Item</h2>
+        <div class="item-list" id="item-list">
+            <div class="item"
+                onclick="addToBox('Jewelry', 'https://i.pinimg.com/originals/ae/4e/d0/ae4ed0325f02bb92d97df831f733f88a.png')">
+                <img src="https://i.pinimg.com/originals/ae/4e/d0/ae4ed0325f02bb92d97df831f733f88a.png" alt="Jewelry">
+                <span>Jewelry</span>
+            </div>
+            <div class="item"
+                onclick="addToBox('Perfume', 'https://static.vecteezy.com/system/resources/previews/016/664/873/original/perfume-logo-illustration-symbol-design-vector.jpg')">
+                <img src="https://static.vecteezy.com/system/resources/previews/016/664/873/original/perfume-logo-illustration-symbol-design-vector.jpg"
+                    alt="Perfume">
+                <span>Perfume</span>
+            </div>
+            <div class="item" onclick="addToBox('clutcher', 'https://5.imimg.com/data5/SELLER/Default/2022/10/VX/RF/DT/55407490/golden-pearl-metal-clutcher-500x500.jpg')">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2022/10/VX/RF/DT/55407490/golden-pearl-metal-clutcher-500x500.jpg" alt="clutcher">
+                <span>Clutcher</span>
+            </div>
+            <div class="item" onclick="addToBox('Bracelet', 'https://i.etsystatic.com/16887756/r/il/3b6bf3/1873682653/il_fullxfull.1873682653_sqoj.jpg')">
+                <img src="https://i.etsystatic.com/16887756/r/il/3b6bf3/1873682653/il_fullxfull.1873682653_sqoj.jpg" alt="Bracelet">
+                <span>Bracelet</span>
+            </div>
+            <div class="item" onclick="addToBox('Ring', 'https://i.pinimg.com/originals/6d/64/68/6d6468ff52d0099fe97a9820449be38f.jpg')">
+                <img src="https://i.pinimg.com/originals/6d/64/68/6d6468ff52d0099fe97a9820449be38f.jpg" alt="Ring">
+                <span>Ring</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
